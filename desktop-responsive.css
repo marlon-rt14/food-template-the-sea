@@ -1,0 +1,624 @@
+@media screen and (min-width: 901px) and (max-width: 1500px) and (max-height: 1000px) {
+  .nav__ul-res {
+    display: none;
+  }
+
+  * {
+    scroll-behavior: smooth;
+  }
+
+  .nav {
+    background: var(--fondo-nav);
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .nav img {
+    padding: 10px;
+  }
+
+  .nav__ul {
+    flex-grow: 1;
+    display: flex;
+    max-width: 70%;
+  }
+
+  .nav__li {
+    list-style: none;
+    flex-grow: 1;
+    background: transparent;
+    transition: background 0.2s;
+  }
+
+  .nav__li a {
+    display: block;
+    padding: 25px 0px;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Asap", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+  }
+
+  /* HOVER */
+  .nav__li:hover {
+    background: #fff;
+    transition: background 0.2s;
+  }
+
+  .nav__li:hover > a {
+    color: var(--fondo-nav);
+  }
+
+  /* BACKGROUND BANNER */
+
+  .banner-container {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    height: calc(100vh - 65px);
+  }
+
+  .bkg-banner {
+    width: 100%;
+    height: 100%;
+  }
+
+  .slider-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+  }
+  .slider-container ul {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .slider-container ul li {
+    min-width: 100%;
+    list-style: none;
+    animation-name: slider-tablet;
+    animation-duration: 15s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+
+  .slider-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+  }
+
+  .logo-with-elements {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo-with-elements img {
+    width: 30%;
+    object-fit: cover;
+    z-index: 100;
+  }
+
+  /*######################################################################################### SECTION HOME ########################*/
+
+  .home-information {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .information-horario {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+  }
+
+  .information-horario ul {
+    background: var(--fondo-nav-degradado);
+    padding: 50px;
+  }
+
+  .information-horario ul h2 {
+    font-family: "Satisfy", cursive;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+  }
+
+  .information-horario ul li {
+    list-style: none;
+    margin: 25px 0px;
+    color: #fff;
+    font-family: "Asap", sans-serif;
+    font-size: 20px;
+  }
+
+  .information-img-container {
+    flex-grow: 1;
+    height: 70vh;
+  }
+
+  .information-img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .home-offer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background: var(--fondo-nav);
+  }
+
+  .home-offer-bkg {
+    width: 35%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pez-bkg {
+    width: 100%;
+    position: absolute;
+  }
+
+  .mark-container {
+    width: 75%;
+    position: relative;
+    border-radius: 50%;
+    background: #fff;
+  }
+
+  .mark-container img {
+    width: 100%;
+  }
+
+  .home-offer-items {
+    flex-grow: 1;
+    padding-right: 50px;
+  }
+
+  .home-offer-items h1 {
+    font-family: "Satisfy", cursive;
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+  }
+
+  .home-offer-items ul li {
+    display: flex;
+    list-style: none;
+    font-family: "Asap", sans-serif;
+    font-size: 16px;
+    color: #fff;
+    text-align: justify;
+    margin: 20px 0px;
+  }
+
+  .home-offer-items ul li div:first-child {
+    width: 20%;
+    margin-right: 3%;
+    padding: 10px;
+  }
+
+  .home-offer-items ul li div:last-child {
+    flex-grow: 1;
+    margin: auto;
+  }
+
+  /*###################################################################################### SECTION MENU ##################*/
+
+  .menu-header {
+    background-image: url(resources/fish_right.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+  }
+
+  .menu-header h1 {
+    text-align: center;
+    font-family: "Satisfy", cursive;
+    font-size: 75px;
+    color: var(--color-titles);
+    font-weight: inherit;
+  }
+
+  .menu-header-catalog {
+    height: 75px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .menu-header-catalog a {
+    font-family: "Asap", sans-serif;
+    font-size: 20px;
+    color: var(--fondo-nav);
+    text-decoration: none;
+    padding: 10px;
+    border-bottom: 4px solid transparent;
+  }
+
+  .menu-header-catalog a:focus {
+    border-bottom: 4px solid var(--fondo-nav);
+  }
+
+  /* CATALGO */
+  .catalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    width: 100%;
+    height: 135vh;
+  }
+
+  .catalog li {
+    list-style: none;
+    margin: 20px 0px;
+  }
+
+  .catalog h1 {
+    font-family: "Satisfy", cursive;
+    font-size: 40px;
+    font-weight: inherit;
+    color: var(--color-titles);
+  }
+
+  .catalog h3 {
+    font-family: "Asap", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--color-titles);
+  }
+
+  .catalog p {
+    font-family: "Asap", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--color-text);
+  }
+
+  .food-menu,
+  .drink-menu {
+    background: #fff;
+    max-width: 100%;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-image: url(resources/crab3.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    opacity: 0;
+    transition: opacity 1s;
+  }
+
+  div.food-menu {
+    opacity: 1;
+  }
+
+  .food-menu,
+  .drink-menu:target {
+    opacity: 1;
+  }
+
+  .drink-menu .drink-left-catalog {
+    order: 10;
+  }
+
+  .food-left-catalog,
+  .food-right-catalog,
+  .drink-left-catalog,
+  .drink-right-catalog {
+    position: relative;
+    width: 50%;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .drink-right-catalog .postres {
+    order: 10;
+  }
+
+  .title-item-container {
+    display: flex;
+    max-width: 100%;
+    overflow-x: hidden;
+    position: relative;
+  }
+
+  .title-item-container div:first-child {
+    max-width: 60%;
+  }
+
+  .title-item-container div:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 20%;
+
+    overflow: hidden;
+    margin: 0px 15px;
+  }
+
+  .title-item-container div:nth-child(3) {
+    max-width: 20%;
+  }
+
+  .title-item-container h3 {
+    width: max-content;
+    max-width: 100%;
+  }
+
+  .title-item-puntos h3 {
+    letter-spacing: 1.5px;
+  }
+
+  /*____________________ ESPECIALEDADES _________________*/
+
+
+  .especialties-header {
+    background: var(--fondo-nav-degradado);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .especialties-header h1 {
+    text-align: center;
+    font-family: "Satisfy", cursive;
+    font-size: 60px;
+    font-weight: inherit;
+    display: block;
+    width: 100%;
+    color: #000;
+    background-color: #fff;
+    line-height: 100px;
+  }
+
+  .especialties-header p {
+    max-width: 80%;
+    text-align: center;
+    font-family: "Asap", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .especialties-header ul {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px 0px;
+  }
+
+  .especialties-header ul li {
+    list-style: none;
+    border-radius: 10px;
+    background: transparent;
+    transition: background 0.3s;
+  }
+
+  .especialties-header ul li a {
+    width: 100%;
+    padding: 20px;
+    display: block;
+    color: #fff;
+    font-family: "Asap", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .especialties-header ul li:hover {
+    background: #fff;
+    transition: background 0.3s;
+  }
+
+  .especialties-header ul li:hover > a {
+    color: var(--fondo-nav);
+  }
+
+  .especialties-header ul li:target {
+    background: #fff;
+  }
+
+  /*_____________ ESPECIALIDADES _________________*/
+
+  .especialties-container {
+    background-image: url(resources/crab4.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+  }
+
+  .especialties-container ul{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
+  }
+
+  .category-especialty {
+      list-style: none;
+      min-width: 100%;
+      position: relative;
+  }
+
+  .category-especialty:target {
+      order: 0;
+      transition: order 1s;
+  }
+
+  .especialty-items-container {
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  .especialty-items-container li {
+      list-style: none;
+      width: 50%;
+      min-width: 400px;
+      display: flex;
+      margin: 5px 0px;
+      padding: 15px;
+      position: relative;
+  }
+
+  .especialty-img-container {
+      max-width: 100px;
+      min-width: 100px;
+  }
+
+  .especialty-img-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }
+
+  .especialty-description-container {
+      flex-grow: 1;
+      max-width: calc(100% - 100px);
+      display: flex;
+      flex-direction: column;
+      padding-left: 15px;
+  }
+
+  .especialty-description-container h3 {
+      font-family: 'Asap', sans-serif;
+      font-size: 18px;
+      font-weight: 600;
+  }
+
+  .especialty-description-container p {
+      font-family: 'Asap', sans-serif;
+      font-size: 15px;
+      font-weight: 400;
+  }
+
+
+  .especialty-title-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .especialty-title-container div:nth-child(2){
+      display: flex;
+      overflow-x: hidden;
+      margin: 10px;
+      min-width: 25px;
+  }
+
+  .especialty-title-container div:first-child h3 {
+      width: max-content;
+  }
+
+  /*_____________________________________________*/
+  /* DESORDENAR LOS ITEM PARA LAS ESPECIALIDADES*/
+
+  /*ALMUERZOS*/
+  .dinner-especialty ul li:first-child {
+    order: 100;
+  }
+
+  .dinner-especialty ul li:nth-child(2) {
+    order: 60;
+  }
+
+  .dinner-especialty ul li:nth-child(3) {
+    order: 10;
+  }
+
+  .dinner-especialty ul li:nth-child(4) {
+    order: 80;
+  }
+
+  .dinner-especialty ul li:nth-child(5) {
+    order: 40;
+  }
+
+  .dinner-especialty ul li:nth-child(6) {
+    order: 30;
+  }
+
+  /* HORA FELIZ */
+  .happy-hour-especialty ul li:first-child {
+    order: 90;
+  }
+
+  .happy-hour-especialty ul li:nth-child(2) {
+    order: 60;
+  }
+
+  .happy-hour-especialty ul li:nth-child(3) {
+    order: 10;
+  }
+
+  .happy-hour-especialty ul li:nth-child(4) {
+    order: 40;
+  }
+
+  .happy-hour-especialty ul li:nth-child(5) {
+    order: 70;
+  }
+
+  .happy-hour-especialty ul li:nth-child(6) {
+    order: 50;
+  }
+
+  /*POSTRES*/
+  .dessert-especialty ul li:first-child {
+    order: 50;
+  }
+
+  .dessert-especialty ul li:nth-child(2) {
+    order: 100;
+  }
+
+  .dessert-especialty ul li:nth-child(3) {
+    order: 70;
+  }
+
+  .dessert-especialty ul li:nth-child(4) {
+    order: 20;
+  }
+
+  .dessert-especialty ul li:nth-child(5) {
+    order: 90;
+  }
+
+  .dessert-especialty ul li:nth-child(6) {
+    order: 30;
+  }
+
+  /*################################################################################### SECTION CHEFS ###################*/
+
+  .section-chefs {
+    height: 100vh;
+    border: 4px solid aqua;
+  }
+}

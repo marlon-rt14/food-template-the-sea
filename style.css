@@ -1,0 +1,64 @@
+:root {
+  --fondo-nav: #479;
+  --color-contraste: #6cf;
+  --fondo-nav-degradado: linear-gradient(to bottom, #6cf, #479);
+  --color-titles: rgb(4, 10, 28);
+  --color-text: rgb(122,120,121);
+  --bkg-section: radial-gradient(circle closest-side, #fff, #fff);
+}
+
+@keyframes slider-mobile {
+  0% {
+      transform: translate(0%);
+  }
+
+  23% {
+      transform: translate(0%);
+  }
+
+  33% {
+      transform: translate(-100%);
+  }
+
+  53% {
+      transform: translate(-100%);
+  }
+
+  67.3% {
+      transform: translate(-200%);
+  }
+
+  100% {
+      transform: translate(-200%);
+  }
+}
+
+@keyframes slider-tablet {
+    0% {
+        transform: translate(0);
+    }
+    25%{
+        transform: translate(0);
+    }
+    35%{
+        transform: translate(-100%);
+    }
+    60%{
+        transform: translate(-100%);
+    }
+    70%{
+        transform: translate(-200%);
+    }
+    100%{
+        transform: translate(-200%);
+    }
+}
+
+@keyframes cdambio-especialidad {
+    0%{
+        transform: translate(0);
+    }
+    100%{
+        transform: translate(0);
+    }
+}
