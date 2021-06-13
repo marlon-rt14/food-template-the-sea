@@ -330,7 +330,7 @@
   }
 
   .menu-header-catalog a:focus {
-    border-bottom: 4px solid var(--fondo-nav) ;
+    border-bottom: 4px solid var(--fondo-nav);
   }
 
   .catalog {
@@ -368,7 +368,6 @@
     margin: 20px 0px;
   }
 
-
   .title-item-container {
     display: flex;
     justify-content: center;
@@ -391,7 +390,7 @@
     max-width: 20%;
   }
 
-  .title-item-nombre h3{
+  .title-item-nombre h3 {
     width: max-content;
     max-width: 100%;
   }
@@ -399,8 +398,8 @@
     letter-spacing: 1.5px;
   }
 
-
-  div.food-menu, div.drink-menu {
+  div.food-menu,
+  div.drink-menu {
     position: absolute;
     background: #fff;
     max-width: 100%;
@@ -435,7 +434,8 @@
     order: 1;
   }
 
-  .food-menu, .drink-menu:target {
+  .food-menu,
+  .drink-menu:target {
     opacity: 1;
   }
 
@@ -445,7 +445,6 @@
     background-repeat: no-repeat;
     background-position: right bottom;
   }
-
 
   .especialties-header {
     background: var(--fondo-nav-degradado);
@@ -460,7 +459,7 @@
   .especialties-header h1 {
     background: #fff;
     color: var(--color-titles);
-    font-family: 'Satisfy', cursive;
+    font-family: "Satisfy", cursive;
     font-size: 50px;
     font-weight: initial;
     text-align: center;
@@ -468,7 +467,7 @@
   }
 
   .especialties-header p {
-    font-family: 'Asap', sans-serif;
+    font-family: "Asap", sans-serif;
     font-size: 17px;
     font-weight: 500;
     color: #fff;
@@ -490,7 +489,7 @@
   }
 
   .especialties-header a {
-    font-family: 'Asap', sans-serif;
+    font-family: "Asap", sans-serif;
     font-size: 17px;
     font-weight: 700;
     color: #fff;
@@ -500,7 +499,7 @@
     padding: 15px;
   }
 
-  .especialties-header a:hover{
+  .especialties-header a:hover {
     border-bottom: 4px solid #fff;
   }
 
@@ -561,18 +560,17 @@
   }
 
   .especialty-description-container h3 {
-    font-family: 'Asap', sans-serif;
+    font-family: "Asap", sans-serif;
     font-size: 16px;
   }
 
   .especialty-description-container p {
-    font-family: 'Asap', sans-serif;
+    font-family: "Asap", sans-serif;
     font-size: 16px;
   }
   .especialty-title-container {
     display: flex;
   }
-
 
   .especialty-title-container div:first-child {
     max-width: 60%;
@@ -598,302 +596,357 @@
   /* DESORDENAR LOS ITEM PARA LAS ESPECIALIDADES*/
 
   /*ALMUERZOS*/
-  .dinner-especialty ul li:first-child{
-   order: 100; 
+  .dinner-especialty ul li:first-child {
+    order: 100;
   }
 
-  .dinner-especialty ul li:nth-child(2){
-   order: 60; 
+  .dinner-especialty ul li:nth-child(2) {
+    order: 60;
   }
 
-  .dinner-especialty ul li:nth-child(3){
-   order: 10; 
+  .dinner-especialty ul li:nth-child(3) {
+    order: 10;
   }
 
-  .dinner-especialty ul li:nth-child(4){
-   order: 80; 
+  .dinner-especialty ul li:nth-child(4) {
+    order: 80;
   }
 
-  .dinner-especialty ul li:nth-child(5){
-   order: 40; 
+  .dinner-especialty ul li:nth-child(5) {
+    order: 40;
   }
 
-  .dinner-especialty ul li:nth-child(6){
-   order: 30; 
+  .dinner-especialty ul li:nth-child(6) {
+    order: 30;
   }
 
   /* HORA FELIZ */
-  .happy-hour-especialty ul li:first-child{
-   order: 90; 
+  .happy-hour-especialty ul li:first-child {
+    order: 90;
   }
 
-  .happy-hour-especialty ul li:nth-child(2){
-   order: 60; 
+  .happy-hour-especialty ul li:nth-child(2) {
+    order: 60;
   }
 
-  .happy-hour-especialty ul li:nth-child(3){
-   order: 10; 
+  .happy-hour-especialty ul li:nth-child(3) {
+    order: 10;
   }
 
-  .happy-hour-especialty ul li:nth-child(4){
-   order: 40; 
+  .happy-hour-especialty ul li:nth-child(4) {
+    order: 40;
   }
 
-  .happy-hour-especialty ul li:nth-child(5){
-   order: 70; 
+  .happy-hour-especialty ul li:nth-child(5) {
+    order: 70;
   }
 
-  .happy-hour-especialty ul li:nth-child(6){
-   order: 50; 
+  .happy-hour-especialty ul li:nth-child(6) {
+    order: 50;
   }
 
   /*POSTRES*/
-  .dessert-especialty ul li:first-child{
-   order: 50; 
+  .dessert-especialty ul li:first-child {
+    order: 50;
   }
 
-  .dessert-especialty ul li:nth-child(2){
-   order: 100; 
+  .dessert-especialty ul li:nth-child(2) {
+    order: 100;
   }
 
-  .dessert-especialty ul li:nth-child(3){
-   order: 70; 
+  .dessert-especialty ul li:nth-child(3) {
+    order: 70;
   }
 
-  .dessert-especialty ul li:nth-child(4){
-   order: 20; 
+  .dessert-especialty ul li:nth-child(4) {
+    order: 20;
   }
 
-  .dessert-especialty ul li:nth-child(5){
-   order: 90; 
+  .dessert-especialty ul li:nth-child(5) {
+    order: 90;
   }
 
-  .dessert-especialty ul li:nth-child(6){
-   order: 30; 
+  .dessert-especialty ul li:nth-child(6) {
+    order: 30;
   }
 
+  /*######################################################################################## SECCION DE GALERIA ######################*/
 
-/*######################################################################################## SECCION DE GALERIA ######################*/
+  .section-gallery {
+    display: grid;
+    padding: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-auto-rows: 100px;
+    grid-gap: 5px;
+    grid-auto-flow: dense;
+  }
 
-.section-gallery {
-  display: grid;
-  padding: 10px;
-  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-  grid-auto-rows: 100px;
-  grid-gap: 5px;
-  grid-auto-flow: dense;
-}
+  .gallery-img-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    cursor: zoom-in;
+  }
 
-.gallery-img-container {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  cursor: zoom-in;
-}
+  .section-gallery div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    transition: filter 0.3s, transform 0.3s;
+  }
 
-.section-gallery div img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transform: scale(1.0);
-  transition: filter .3s, transform .3s;
-}
+  .section-gallery div:first-child {
+    grid-column: 1 / 3;
+  }
 
-.section-gallery div:first-child{
-  grid-column: 1 / 3;
-}
+  .section-gallery div:nth-child(4) {
+    grid-row: 2 / span 2;
+    grid-column: 2 / 3;
+  }
 
-.section-gallery div:nth-child(4){
-  grid-row: 2 / span 2;
-  grid-column: 2 / 3;
-}
+  .section-gallery div:hover > img {
+    filter: brightness(0.5);
+    transform: scale(1.1);
+    z-index: 100;
+  }
 
-.section-gallery div:hover > img{
-filter: brightness(.5);
-transform: scale(1.1);
-z-index: 100;
-}
+  /*################################################################################### SECTION CHEFS ###########################3*/
 
-/*################################################################################### SECTION CHEFS ###########################3*/
+  .chefs-title h1 {
+    text-align: center;
+    font-family: "Satisfy", cursive;
+    font-size: 45px;
+    font-weight: inherit;
+    padding: 0px 15px;
+  }
 
-.chefs-title h1{
-  text-align: center;
-  font-family: 'Satisfy', cursive;
-  font-size: 45px;
-  font-weight: inherit;
-  padding: 0px 15px;
-}
+  .chefs-manager,
+  .chefs-ejecutive {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-.chefs-manager, .chefs-ejecutive{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+  .chefs-manager img,
+  .chefs-ejecutive img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 
-.chefs-manager img, .chefs-ejecutive img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
+  .chef-social-networks ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
 
-.chef-social-networks ul {
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-align-items: center;
-}
+  .chef-social-networks ul li {
+    list-style: none;
+    flex-grow: 1;
+    max-width: 15%;
+    text-align: left;
+  }
 
-.chef-social-networks ul li{
-  list-style: none;
-  flex-grow: 1;
-  max-width: 15%;
-  text-align: left;
-}
+  .chef-social-networks ul li a i {
+    font-size: 30px;
+    padding: 8px;
+    color: var(--azul-oscuro);
+  }
 
-.chef-social-networks ul li a i {
-  font-size: 30px;
-  padding: 8px;
-  color: var(--azul-oscuro);
-}
+  .chefs-manager-description div,
+  .chefs-ejecutive-description div {
+    margin: 20px 0px;
+    padding: 10px;
+  }
 
-.chefs-manager-description div, .chefs-ejecutive-description div
-{
-  margin: 20px 0px;
-  padding: 10px;
-}
+  .chef-description-title h1 {
+    font-family: "Satisfy", cursive;
+    font-size: 30px;
+    font-weight: inherit;
+    margin: 0;
+  }
 
-.chef-description-title h1 {
-  font-family: 'Satisfy', cursive;
-  font-size: 30px;
-  font-weight: inherit;
-  margin: 0;
-}
+  .chef-description-title p {
+    font-family: "Asap", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #888;
+    font-style: italic;
+  }
 
-.chef-description-title p {
-  font-family: 'Asap', sans-serif;
-  font-size: 15px;
-  font-weight: 500;
-  color: #888;
-  font-style: italic;
-}
+  .chef-description-history p {
+    font-family: "Asap", cursive;
+    font-family: 15px;
+    font-weight: 400;
+    text-align: justify;
+  }
 
-.chef-description-history p {
-  font-family: 'Asap', cursive;
-  font-family: 15px;
-  font-weight: 400;
-  text-align: justify;
-}
+  .chef-description-history p:first-child {
+    margin-bottom: 10px;
+  }
 
-.chef-description-history p:first-child{
-margin-bottom: 10px;
-}
+  .chefs-container-chefs ul {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-auto-rows: 300px;
+    grid-auto-flow: dense;
+    grid-gap: 10px;
+    justify-items: center;
+    align-items: center;
+  }
 
-.chefs-container-chefs ul {
-  padding: 10px;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  grid-auto-rows: 300px;
-  grid-auto-flow: dense;
-  grid-gap: 10px;
-  justify-items: center;
-  align-items: center;
+  .chefs-container-chefs ul li {
+    list-style: none;
+    width: 100%;
+  }
 
-}
+  .chefs-container-chefs ul li img {
+    width: 100%;
+    object-fit: cover;
+  }
 
-.chefs-container-chefs ul li {
-  list-style: none;
-  width:100%;
-}
+  .chefs-container-chefs ul li {
+    text-align: center;
+    font-family: "Asap", sans-serif;
+  }
 
-.chefs-container-chefs ul li img {
-  width: 100%;
-  object-fit: cover;
-}
+  .chefs-container-chefs ul li div {
+    display: flex;
+    justify-content: space-evenly;
+  }
 
-.chefs-container-chefs ul li {
-  text-align: center;
-  font-family: 'Asap', sans-serif;
-}
+  .chefs-container-chefs ul li div i {
+    font-size: 20px;
+    padding: 5px;
+    color: var(--azul-oscuro);
+  }
 
-.chefs-container-chefs ul li div {
-  display: flex;
-  justify-content: space-evenly;
-}
+  /*############################################################################################## SECTION ABOUT US ###############*/
 
-.chefs-container-chefs ul li div i {
-  font-size: 20px;
-  padding: 5px;
-  color: var(--azul-oscuro);
-}
+  .section-about-us {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
 
-/*############################################################################################## SECTION ABOUT US ###############*/
+  .about-title {
+    width: 100%;
+    height: 10%;
+    padding: 15px;
+    background: var(--fondo-nav);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-.section-about-us {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
+  .about-title h1 {
+    text-align: center;
+    font-family: "Satisfy", cursive;
+    font-size: 50px;
+    font-weight: inherit;
+    color: #fff;
+  }
 
-.about-title {
-  width: 100%;
-  height: 10%;
-  padding: 15px;
-  background: var(--fondo-nav);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  .about-subtitle {
+    width: 100%;
+    margin: 50px 0px;
+  }
 
-.about-title h1 {
-  text-align: center;
-  font-family: 'Satisfy', cursive;
-  font-size: 50px;
-  font-weight: inherit;
-  color: #fff;
-}
+  .about-subtitle h2 {
+    text-align: center;
+    font-family: "Satisfy", cursive;
+    font-size: 40px;
+    font-weight: inherit;
+  }
 
-.about-subtitle {
-  width: 100%;
-  margin: 50px 0px;
-}
+  .about-history {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+  }
 
-.about-subtitle h2 {
-  text-align: center;
-  font-family: 'Satisfy', cursive;
-  font-size: 40px;
-  font-weight: inherit;
-}
+  .about-history div {
+    margin: 15px 0px;
+  }
 
-.about-history {
-  padding: 15px;
-  display: flex;
-  flex-direction: column;
-}
+  .about-history div p {
+    font-family: "Asap", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: justify;
+  }
 
-.about-history div {
-  margin: 15px 0px;
-}
+  .about-video-container {
+    display: flex;
+    margin: 50px 0px;
+  }
 
-.about-history div p {
-  font-family: 'Asap', sans-serif;
-  font-size: 17px;
-  font-weight: 400;
-  text-align: justify;
-}
+  /*######################################################################################3### SECTION CONTACT US ###############*/
 
-.about-video-container {
-  display: flex;
-  margin: 50px 0px;
-}
+  .section-contact-us {
+    color: #fff;
+    padding-bottom: 30px;
+    background-image: url(resources/footer_bottom_img.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+  }
 
+  .contact-map {
+    height: 25vh;
+  }
 
-/*######################################################################################3### SECTION CONTACT US ###############*/
+  .contact-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 15px;
+    background: var(--azul-oscuro);
+  }
 
-.section-contact-us {
-  border: 4px solid aqua;
-  height: 100vh;
-}
+  .contact-details div {
+    margin: 15px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-details div h2 {
+    font-family: "Asap", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px;
+  }
+
+  .contact-details div p {
+    font-family: "Asap", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 5px;
+  }
+
+  .contact-networks ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+  }
+
+  .contact-networks ul li {
+    list-style: none;
+  }
+
+  .contact-details ul li a i {
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--texto-claro);
+  }
 }

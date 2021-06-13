@@ -270,7 +270,6 @@
     justify-content: space-evenly;
     align-items: center;
     margin: 50px 0px;
-
   }
 
   .menu-header-catalog a {
@@ -278,7 +277,7 @@
     font-size: 17px;
     color: var(--fondo-nav);
     text-decoration: none;
-    padding:5px;
+    padding: 5px;
     display: block;
     border-bottom: 4px solid transparent;
   }
@@ -322,7 +321,6 @@
     margin: 25px 0px;
   }
 
-
   .food-menu,
   .drink-menu {
     max-width: 100%;
@@ -330,14 +328,16 @@
     flex-wrap: wrap;
   }
 
-  .food-menu, .drink-menu:target {
+  .food-menu,
+  .drink-menu:target {
     order: 0;
     transition: order 1s;
   }
 
   .food-left-catalog,
-  .food-right-catalog,  .drink-left-catalog,
-  .drink-right-catalog{
+  .food-right-catalog,
+  .drink-left-catalog,
+  .drink-right-catalog {
     position: relative;
     width: 50%;
     padding: 0px 15px;
@@ -523,13 +523,13 @@
   }
 
   .especialty-description-container h3 {
-    font-family: 'Asap', sans-serif;
+    font-family: "Asap", sans-serif;
     font-size: 18px;
     font-weight: 500;
   }
 
   .especialty-description-container p {
-    font-family: 'Asap', sans-serif;
+    font-family: "Asap", sans-serif;
     font-size: 15px;
     flex-grow: 1;
   }
@@ -554,7 +554,6 @@
     width: max-content;
     max-width: 100%;
   }
-
 
   /*_____________________________________________*/
   /* DESORDENAR LOS ITEM PARA LAS ESPECIALIDADES*/
@@ -656,26 +655,24 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transform: scale(1.0);
-    transition: filter .3s, transform .3s;
+    transform: scale(1);
+    transition: filter 0.3s, transform 0.3s;
   }
 
   .gallery-img-container:hover > img {
-    filter: brightness(.5);
+    filter: brightness(0.5);
     transform: scale(1.1);
   }
-
-
 
   /*##################################################################################### SECTION CHEFS #####################*/
 
   .section-chefs {
     background-image: url(resources/top_half_right.png);
     background-repeat: no-repeat;
-    background-position: right top
+    background-position: right top;
   }
 
-  .chefs-title  {
+  .chefs-title {
     height: 25vh;
     background-color: var(--fondo-nav);
     display: flex;
@@ -684,7 +681,7 @@
   }
 
   .chefs-title h1 {
-    font-family: 'Satisfy', cursive;
+    font-family: "Satisfy", cursive;
     font-size: 50px;
     font-weight: inherit;
     text-align: center;
@@ -692,7 +689,8 @@
     color: #fff;
   }
 
-  .chefs-manager, .chefs-ejecutive {
+  .chefs-manager,
+  .chefs-ejecutive {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -700,7 +698,8 @@
     padding: 15px;
   }
 
-  .chefs-manager-img-container, .chefs-ejecutive-img-container {
+  .chefs-manager-img-container,
+  .chefs-ejecutive-img-container {
     flex: 1.5;
     min-width: 300px;
   }
@@ -709,12 +708,13 @@
     order: 10;
   }
 
-  .chefs-manager img, .chefs-ejecutive img {
+  .chefs-manager img,
+  .chefs-ejecutive img {
     width: 100%;
     object-fit: cover;
   }
 
-  .chefs-manager-description{
+  .chefs-manager-description {
     flex: 2;
     min-width: 300px;
     padding-left: 15px;
@@ -726,12 +726,13 @@
     padding-right: 15px;
   }
 
-  .chefs-manager-description div, .chefs-ejecutive-description div {
+  .chefs-manager-description div,
+  .chefs-ejecutive-description div {
     margin: 15px 0px;
   }
 
   .chef-description-title h1 {
-    font-family: 'Satisfy', cursive;
+    font-family: "Satisfy", cursive;
     font-size: 40px;
     font-weight: inherit;
     margin: 0;
@@ -742,20 +743,20 @@
   }
 
   .chef-description-history p {
-    font-family: 'Asap', sans-serif;
+    font-family: "Asap", sans-serif;
     font-size: 16px;
     font-weight: 400;
     text-align: justify;
   }
   .chef-description-title p {
-    font-family: 'Asap', sans-serif;
+    font-family: "Asap", sans-serif;
     font-size: 16px;
     font-weight: 500;
     font-style: italic;
     color: #999;
   }
 
-  .chef-social-networks ul{
+  .chef-social-networks ul {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -788,7 +789,7 @@
     max-width: 200px;
     margin: 15px 0px;
     text-align: center;
-    font-family: 'Asap', sans-serif;
+    font-family: "Asap", sans-serif;
   }
 
   .chefs-container-chefs ul li img {
@@ -830,7 +831,7 @@
   }
 
   .about-title h1 {
-    font-family: 'Satisfy', cursive;
+    font-family: "Satisfy", cursive;
     font-size: 55px;
     font-weight: inherit;
     text-align: center;
@@ -845,7 +846,7 @@
   }
 
   .about-subtitle h2 {
-    font-family: 'Satisfy', cursive;
+    font-family: "Satisfy", cursive;
     font-size: 45px;
     font-weight: inherit;
     text-align: center;
@@ -867,8 +868,8 @@
     flex: 1;
   }
 
-  .about-history div p{
-    font-family: 'Asap', sans-serif;
+  .about-history div p {
+    font-family: "Asap", sans-serif;
     font-size: 18px;
     font-weight: 400;
     text-align: justify;
@@ -881,11 +882,74 @@
     margin: 50px 0px;
   }
 
+  /*######################################################################################3### SECTION CONTACT US ###############*/
 
-/*######################################################################################3### SECTION CONTACT US ###############*/
+  .section-contact-us {
+    color: #fff;
+    background: var(--azul-oscuro);
+  }
 
-.section-contact-us {
-  border: 4px solid aqua;
-  height: 100vh;
-}
+  .contact-map {
+    height: 30vh;
+  }
+
+  .contact-details {
+    background-image: url(resources/footer_bottom_img.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: contain;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-bottom: 25px;
+  }
+
+  .contact-details div {
+    min-width: 300px;
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0px;
+  }
+
+  .contact-details div h2 {
+    font-family: "Asap", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-details div p {
+    margin: 5px;
+    font-family: "Asap", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+  }
+
+  .contact-networks ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+  }
+
+  .contact-details ul li {
+    list-style: none;
+  }
+
+  .contact-details ul li a i {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--texto-claro);
+    padding: 5px;
+  }
 }
