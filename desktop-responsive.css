@@ -162,7 +162,7 @@
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-    background: var(--fondo-nav);
+    background: var(--azul-oscuro);
   }
 
   .home-offer-bkg {
@@ -375,7 +375,6 @@
 
   /*____________________ ESPECIALEDADES _________________*/
 
-
   .especialties-header {
     background: var(--fondo-nav-degradado);
     color: #fff;
@@ -454,7 +453,7 @@
     background-position: right bottom;
   }
 
-  .especialties-container ul{
+  .especialties-container ul {
     position: relative;
     width: 100%;
     display: flex;
@@ -463,78 +462,77 @@
   }
 
   .category-especialty {
-      list-style: none;
-      min-width: 100%;
-      position: relative;
+    list-style: none;
+    min-width: 100%;
+    position: relative;
   }
 
   .category-especialty:target {
-      order: 0;
-      transition: order 1s;
+    order: 0;
+    transition: order 1s;
   }
 
   .especialty-items-container {
-      display: flex;
-      flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .especialty-items-container li {
-      list-style: none;
-      width: 50%;
-      min-width: 400px;
-      display: flex;
-      margin: 5px 0px;
-      padding: 15px;
-      position: relative;
+    list-style: none;
+    width: 50%;
+    min-width: 400px;
+    display: flex;
+    margin: 5px 0px;
+    padding: 15px;
+    position: relative;
   }
 
   .especialty-img-container {
-      max-width: 100px;
-      min-width: 100px;
+    max-width: 100px;
+    min-width: 100px;
   }
 
   .especialty-img-container img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 
   .especialty-description-container {
-      flex-grow: 1;
-      max-width: calc(100% - 100px);
-      display: flex;
-      flex-direction: column;
-      padding-left: 15px;
+    flex-grow: 1;
+    max-width: calc(100% - 100px);
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
   }
 
   .especialty-description-container h3 {
-      font-family: 'Asap', sans-serif;
-      font-size: 18px;
-      font-weight: 600;
+    font-family: "Asap", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
   }
 
   .especialty-description-container p {
-      font-family: 'Asap', sans-serif;
-      font-size: 15px;
-      font-weight: 400;
+    font-family: "Asap", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
   }
-
 
   .especialty-title-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
-  .especialty-title-container div:nth-child(2){
-      display: flex;
-      overflow-x: hidden;
-      margin: 10px;
-      min-width: 25px;
+  .especialty-title-container div:nth-child(2) {
+    display: flex;
+    overflow-x: hidden;
+    margin: 10px;
+    min-width: 25px;
   }
 
   .especialty-title-container div:first-child h3 {
-      width: max-content;
+    width: max-content;
   }
 
   /*_____________________________________________*/
@@ -615,10 +613,278 @@
     order: 30;
   }
 
+  /*###################################################################################### SECCOPM GAÑEROA ########################*/
+
+  .section-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-auto-rows: 300px;
+    grid-gap: 10px;
+    grid-auto-flow: dense;
+    padding: 10px;
+    position: relative;
+  }
+
+  .gallery-img-container {
+    width: 100%;
+    height: 100%;
+    min-width: 250px;
+    overflow: hidden;
+    cursor: zoom-in;
+  }
+
+  .gallery-img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    transition: filter 0.5s, transform 0.2s;
+  }
+
+  .gallery-img-container p {
+    z-index: 1000;
+  }
+
+  .gallery-img-container:hover > img {
+    filter: brightness(0.5);
+    transform: scale(1.1);
+    transition: filter 0.5s, transform 0.2s;
+  }
+
+  .section-gallery div:first-child {
+    grid-column: 1 / 3;
+  }
+
+  .section-gallery div:nth-child(4) {
+    grid-column: 2 / span 2;
+  }
+
   /*################################################################################### SECTION CHEFS ###################*/
 
   .section-chefs {
-    height: 100vh;
-    border: 4px solid aqua;
+    background-image: url(resources/top_half_right.png);
+    background-repeat: no-repeat;
+    background-position: right top;
   }
+
+  .chefs-title {
+    background: var(--fondo-nav);
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .chefs-title h1 {
+    font-family: "Satisfy", cursive;
+    font-size: 65px;
+    font-weight: inherit;
+    text-align: center;
+    color: #fff;
+    padding: 0px 10px;
+  }
+  .chefs-manager,
+  .chefs-ejecutive {
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .chefs-manager-img-container,
+  .chefs-ejecutive-img-container {
+    flex: 1.5;
+    order: 10;
+    min-width: 450px;
+  }
+
+  .chefs-manager-img-container img,
+  .chefs-ejecutive-img-container img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .chefs-manager-description {
+    flex: 2;
+    min-width: 450px;
+  }
+
+  .chefs-ejecutive-description {
+    flex: 2;
+    min-width: 450px;
+    order: 10;
+  }
+
+  .chefs-manager-description div,
+  .chefs-ejecutive-description div {
+    margin: 15px;
+  }
+
+  .chef-description-title h1 {
+    font-family: "Satisfy", cursive;
+    font-size: 45px;
+    font-weight: inherit;
+    margin: 0;
+  }
+
+  .chef-description-title p {
+    font-family: "Asap", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    font-style: italic;
+    color: #999;
+  }
+
+  .chef-description-history p:first-child {
+    margin-bottom: 15px;
+  }
+
+  .chef-description-history p {
+    font-family: "Asap";
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+  }
+
+  .chef-social-networks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .chef-social-networks ul {
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .chef-social-networks ul li {
+    flex-grow: 1fr;
+    list-style: none;
+  }
+
+  .chef-social-networks ul li a i {
+    font-size: 40px;
+    font-weight: 600;
+    padding: 5px;
+    color: var(--azul-oscuro);
+  }
+
+  /*__________________________________________*/
+
+  .chefs-container-chefs ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 15px;
+  }
+
+  .chefs-container-chefs ul li {
+    list-style: none;
+    flex-grow: 1fr;
+    min-width: 200px;
+    max-width: 300px;
+    text-align: center;
+    font-family: "Asap";
+    font-size: 20px;
+    margin: 15px 0px;
+  }
+
+  .chefs-container__li img {
+    width: 100%;
+  }
+
+  .chefs-container-chefs ul li div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .chefs-container-chefs ul li div i {
+    font-size: 30px;
+    padding: 10px 5px;
+    font-weight: 600;
+    color: var(--azul-oscuro);
+  }
+
+  /*################################################################################### SECTION ABOUT US #####################*/
+
+  .section-about-us {
+    border: 2px solid red;
+  }
+
+  .about-title {
+    height: 10%;
+    padding: 15px;
+    background: var(--fondo-nav);
+  }
+
+  .about-title h1 {
+    font-family: 'Satisfy', cursive;
+    font-size: 60px;
+    font-weight: inherit;
+    color: #fff;
+    text-align: center;
+  }
+
+  .about-subtitle {
+    margin: 50px 0px 0px 0px;
+    padding: 15px;
+  }
+
+  .about-subtitle h2 {
+    font-family: 'Satisfy', cursive;
+    font-size: 50px;
+    font-weight: inherit;
+    text-align: center;
+  }
+
+  .about-history {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   align-items: flex-start;
+   padding: 15px;
+  }
+
+  .about-history div {
+    min-width: 300px;
+    flex: 1;
+    margin: 20px;
+  }
+
+  .about-history div p {
+    font-family: 'Asap', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+    margin: 15px 0px;
+    padding: 5px;
+  }
+
+  .about-video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px;
+  }
+
+  .about-video-container iframe {
+    max-width: 70%;
+    height: 55vh;
+  }
+
+
+
+/*######################################################################################3### SECTION CONTACT US ###############*/
+
+.section-contact-us {
+  border: 4px solid aqua;
+  height: 100vh;
+}
 }

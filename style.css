@@ -1,9 +1,11 @@
 :root {
   --fondo-nav: #479;
   --color-contraste: #6cf;
-  --fondo-nav-degradado: linear-gradient(to bottom, #6cf, #479);
+  --afondo-nav-degradado: linear-gradient(to bottom, #6cf, #479);
+  --fondo-nav-degradado: linear-gradient(to bottom, #479, rgb(0,81,127));
   --color-titles: rgb(4, 10, 28);
   --color-text: rgb(122,120,121);
+  --azul-oscuro: rgb(0,81,127);
   --bkg-section: radial-gradient(circle closest-side, #fff, #fff);
 }
 
@@ -62,3 +64,4 @@
         transform: translate(0);
     }
 }
+
