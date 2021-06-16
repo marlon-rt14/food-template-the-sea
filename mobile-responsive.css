@@ -265,9 +265,6 @@
     margin: 10px 0px;
   }
 
-  .home-offer-items ul li div:first-child {
-    max-width: 30%;
-  }
 
   .home-offer-bkg {
     order: 10;
