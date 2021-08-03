@@ -1,4 +1,4 @@
-@media screen and (min-width: 901px) and (max-width: 1500px) and (max-height: 1500px) {
+@media screen and (min-width: 1024px) {
   .nav__ul-res {
     display: none;
   }
@@ -225,7 +225,7 @@
   /*###################################################################################### SECTION MENU ##################*/
 
   .menu-header {
-    background-image: url(resources/fish_right.png);
+    background-image: url(../resources/fish_right.png);
     background-repeat: no-repeat;
     background-position: top right;
   }
@@ -304,7 +304,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    background-image: url(resources/crab3.png);
+    background-image: url(../resources/crab3.png);
     background-repeat: no-repeat;
     background-position: left bottom;
     opacity: 0;
@@ -448,7 +448,7 @@
   /*_____________ ESPECIALIDADES _________________*/
 
   .especialties-container {
-    background-image: url(resources/crab4.png);
+    background-image: url(../resources/crab4.png);
     background-repeat: no-repeat;
     background-position: right bottom;
   }
@@ -662,7 +662,7 @@
   /*################################################################################### SECTION CHEFS ###################*/
 
   .section-chefs {
-    background-image: url(resources/top_half_right.png);
+    background-image: url(../resources/top_half_right.png);
     background-repeat: no-repeat;
     background-position: right top;
   }
@@ -887,7 +887,7 @@
   }
 
   .contact-details {
-    background-image: url(resources/footer_bottom_img.png);
+    background-image: url(../resources/footer_bottom_img.png);
     background-repeat: no-repeat;
     background-position: bottom center;
     background-size: contain;
