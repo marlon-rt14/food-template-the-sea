@@ -247,7 +247,7 @@
   /*################################################################################### SECTION MENU #########################*/
 
   .menu-header {
-    background-image: url(../resources/fish_right.png);
+    background-image: url(../src/fish_right.png);
     background-repeat: no-repeat;
     background-position: right top;
     position: relative;
@@ -292,7 +292,7 @@
     display: flex;
     width: 100%;
     align-items: center;
-    background-image: url(../resources/crab3.png);
+    background-image: url(../src/crab3.png);
     background-repeat: no-repeat;
     background-position: left bottom;
     overflow-x: hidden;
@@ -391,7 +391,7 @@
   /*################# ESPECIALIDDES #####################*/
 
   .menu-especialties {
-    background-image: url(../resources/crab4.png);
+    background-image: url(../src/crab4.png);
     background-repeat: no-repeat;
     background-position: right bottom;
   }
@@ -667,7 +667,7 @@
   /*##################################################################################### SECTION CHEFS #####################*/
 
   .section-chefs {
-    background-image: url(../resources/top_half_right.png);
+    background-image: url(../src/top_half_right.png);
     background-repeat: no-repeat;
     background-position: right top;
   }
@@ -894,7 +894,7 @@
   }
 
   .contact-details {
-    background-image: url(../resources/footer_bottom_img.png);
+    background-image: url(../src/footer_bottom_img.png);
     background-repeat: no-repeat;
     background-position: bottom center;
     background-size: contain;

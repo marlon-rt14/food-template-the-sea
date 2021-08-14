@@ -190,7 +190,7 @@
     background: var(--fondo-nav);
     color: #fff;
     padding: 40px;
-    background-image: url(../resources/crab.png);
+    background-image: url(../src/crab.png);
     background-size: 50%;
     background-repeat: no-repeat;
     background-position-x: right;
@@ -294,7 +294,7 @@
   /*################################################################################### SECTION MENU #########################*/
 
   .section-menu {
-    background-image: url(../resources/fish_right.png);
+    background-image: url(../src/fish_right.png);
     background-repeat: no-repeat;
     background-position: right top;
   }
@@ -338,7 +338,7 @@
     position: relative;
     justify-content: space-evenly;
     align-items: center;
-    background-image: url(../resources/crab3.png);
+    background-image: url(../src/crab3.png);
     background-repeat: no-repeat;
     background-position-y: bottom;
   }
@@ -407,7 +407,7 @@
     padding: 15px;
     opacity: 0;
     transition: opacity 1s;
-    background-image: url(../resources/crab3.png);
+    background-image: url(../src/crab3.png);
     background-repeat: no-repeat;
     background-position-y: bottom;
   }
@@ -439,7 +439,7 @@
 
   /* ESPECIALIDADES ######################################*/
   .menu-especialties {
-    background-image: url(../resources/crab4.png);
+    background-image: url(../src/crab4.png);
     background-repeat: no-repeat;
     background-position: right bottom;
   }
@@ -890,7 +890,7 @@
   .section-contact-us {
     color: #fff;
     padding-bottom: 30px;
-    background-image: url(../resources/footer_bottom_img.png);
+    background-image: url(../src/footer_bottom_img.png);
     background-repeat: no-repeat;
     background-position: right bottom;
   }
